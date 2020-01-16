@@ -1,0 +1,3 @@
+# Assets
+
+> 🎨 Store images, appendix ...

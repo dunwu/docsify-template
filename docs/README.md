@@ -1,14 +1,10 @@
 # doc-project-template
 
-![license](https://badgen.net/github/license/dunwu/doc-project-template) ![stars](https://badgen.net/github/stars/dunwu/doc-project-template) ![contributors](https://badgen.net/github/contributors/dunwu/doc-project-template) ![welcome](https://badgen.net/badge/PRs/welcome/green)
+![license](https://badgen.net/github/license/dunwu/doc-project-templat) ![stars](https://badgen.net/github/stars/dunwu/doc-project-template) ![contributors](https://badgen.net/github/contributors/dunwu/doc-project-template) ![welcome](https://badgen.net/badge/PRs/welcome/green)
 
 > 📚 [**doc-project-template**](https://github.com/dunwu/doc-project-template) 是一个电子文档、书籍、教程类项目模板。 
 
-<p align="center">
-    <a href="https://dunwu.github.io/doc-project-template/" target="_blank" rel="noopener noreferrer">
-        <img src="./assets/images/bg.jpg" alt="logo">
-    </a>
-</p>
+![bg](https://raw.githubusercontent.com/dunwu/doc-project-template/master/assets/images/bg.jpg)
 
 ## 说明
 
