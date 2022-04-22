@@ -9,14 +9,18 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
       name="viewport"
     />
-    <link href="http://dunwu.test.upcdn.net/common/logo/zp_50_50.png" rel="icon" type="image/x-icon" />
+    <link
+      href="https://raw.githubusercontent.com/dunwu/images/dev/common/dunwu-logo-200.png"
+      rel="icon"
+      type="image/x-icon"
+    />
     <link href="//unpkg.com/docsify/lib/themes/vue.css" rel="stylesheet" />
     <link href="//unpkg.com/gitalk/dist/gitalk.css" rel="stylesheet" />
     <canvas
       id="c_n9"
       width="1920"
       height="990"
-      style="position: fixed; top: 0; left: 0; z-index: -1; opacity: 0.5;"
+      style="position: fixed; top: 0; left: 0; z-index: -1; opacity: 0.5"
     ></canvas>
     <style>
       /*超链接样式*/
@@ -56,7 +60,7 @@
       section.cover h1 span,
       .markdown-section h1 span {
         font-weight: 600;
-        font-family: zillaslab, Palatino, 'Palatino Linotype', 'Microsoft YaHei', serif;
+        font-family: zillaslab, Palatino, "Palatino Linotype", "Microsoft YaHei", serif;
         background-image: -webkit-linear-gradient(left, #9fa5d5, #c4cdd2 50%, #e8f5ca);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
@@ -86,40 +90,44 @@
 
     <script>
       window.$docsify = {
-        name: 'doc-project-template',
-        repo: 'https://github.com/dunwu/doc-project-template',
-        logo: 'http://dunwu.test.upcdn.net/common/logo/zp_100_100.png',
-        themeColor: '#6190E8',
+        name: "doc-project-template",
+        repo: "https://github.com/dunwu/doc-project-template",
+        logo: "https://raw.githubusercontent.com/dunwu/images/dev/common/dunwu-logo-200.png",
+        themeColor: "#6190E8",
         auto2top: true,
-        coverpage: 'coverpage.md',
-        loadSidebar: 'sidebar.md',
+        coverpage: "coverpage.md",
+        loadSidebar: "sidebar.md",
         autoHeader: false,
         maxLevel: 4,
-        subMaxLevel: 2,
+        subMaxLevel: 3,
         mergeNavbar: true,
-        formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
+        formatUpdated: "{YYYY}/{MM}/{DD} {HH}:{mm}",
         search: {
           maxAge: 86400000,
-          paths: ['/'],
-          placeholder: '🔍 搜索',
-          noData: '😭 没有结果！',
-          depth: 4
+          paths: ["/"],
+          placeholder: "🔍 搜索",
+          noData: "😭 没有结果！",
+          depth: 4,
         },
         pagination: {
-          previousText: '上一篇',
-          nextText: '下一篇',
-          crossChapter: true
+          previousText: "上一篇",
+          nextText: "下一篇",
+          crossChapter: true,
         },
         plugins: [
-          EditOnGithubPlugin.create('https://github.com/dunwu/doc-project-template/tree/master/docs/', null, function(file) {
-            if (file.indexOf('en') === -1) {
-              return '📝 编辑文档'
-            } else {
-              return '📝 Edit Document'
+          EditOnGithubPlugin.create(
+            "https://github.com/dunwu/doc-project-template/tree/master/docs/",
+            null,
+            function (file) {
+              if (file.indexOf("en") === -1) {
+                return "📝 编辑文档";
+              } else {
+                return "📝 Edit Document";
+              }
             }
-          })
-        ]
-      }
+          ),
+        ],
+      };
     </script>
 
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
@@ -134,6 +142,6 @@
     <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
 
     <!--    <canvas id="c_n9" width="1920" height="990" style="position: fixed; top: 0; left: 0; z-index: -2; opacity: 0.5;"></canvas>-->
-    <script src="https://files.cnblogs.com/files/jingmoxukong/canvas-nest.min.js" async defer></script>
+    <script async defer src="https://files.cnblogs.com/files/jingmoxukong/canvas-nest.min.js"></script>
   </body>
 </html>
